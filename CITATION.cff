@@ -1,0 +1,35 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Matlab;
+message: lenguaje m;
+type: software
+authors:
+  - given-names: Cristina
+    family-names: Lopez Lopez
+    email: l22212259@tectijuana.edu.mx
+    affiliation: TECNM-ITT
+  - given-names: 'Ximena '
+    family-names: Solis Marrufo
+    email: l22212274@tectijuana.edu.mx
+    affiliation: TECNM-ITT
+  - given-names: Anette Mariana
+    family-names: Vidal Ortiz
+    email: l22212389@tectijuana.edu.mx
+    affiliation: TECNM-ITT
+  - given-names: 'Alberto '
+    family-names: Villalobos Valdez
+    email: l22212277@tectijuana.edu.mx
+    affiliation: TECNM-ITT
+repository-code: >-
+  https://github.com/anettevidal/ProyectoFinalSistemaUrinario
+keywords:
+  - Infección urinaria
+  - Sistema Urinario
+  - Modelo matemático
+  - Controlador I
+  - Circuito RLC
+license: BSD-2-Clause
+version: '1.0'
+date-released: '2025-12-03'
