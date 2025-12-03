@@ -1,10 +1,14 @@
 [![Open in MATLAB Online]
 
-# Práctica: Regeneración de glóbulos rojos [Sistema de EDOs]
+# Proyecto final: Sistema urinario masculino.
 
-## Información del estudiante
+## Información de los estudiantes
 
-Paul A. Valle [05211261]; paul.valle@tectijuana.edu.mx
+Cristina Lopez Lopez [22212259]; l22212259@tectijuana.edu.mx
+Ximena Solis Marrufo [22212274]; l22212274@tectijuana.edu.mx
+Anette Mariana Vidal Ortiz [22212389]; l22212389@tectijuana.edu.mx
+Alberto Villalobos Valdez [22212277]; l22212277@tectijuana.edu.mx
+
 
 Modelado de Sistemas Fisiológicos
 
@@ -23,26 +27,15 @@ El modelizado de sistemas fisiológicos es una herramienta importante en Ingenie
 La asignatura de Modelado de Sistemas Fisiológicos forma parte del plan de estudios de la carrera en Ingeniería Biomédica con la siguiente competencia general del curso: Utiliza las propiedades de los circuitos RLC para describir la dinámica de sistemas fisiológicos, obtener modelos matemáticos y aplicar el control clásico, esto con el objetivo de integrar los principios de la Ingeniería de Control, la Electrónica Analógica y las Ciencias de la Computación con la Anatomía y Fisiología del cuerpo humano para proporcionar descripciones cuantitativas y cualitativas de sistemas fisiológicos complejos con el objetivo de modelizar, analizar, controlar, ilustrar y predecir su dinámica tanto en el corto como en el largo plazo.
 
 ## Objetivos
-1. Resolver el sistema de EDOs mediante el método de Euler.
-2. Graficar el caso con transfusión sanguínea y sin transfusión sanguínea del individuo.
+1. Analizar el impacto de la infección urinaria en la dinámica del flujo urinario en la gráfica.
+2. Simular y predecir el comportamiento del sistema urinario mediante un circuito RLC.
  
 
 ## Descripción detallada del sistema
 
-El siguiente modelo matemático de tres EDOs de primer orden es un modelo mecanicista de compartimento para la eritropoyesis después de la pérdida de sangre en personas sanas, fenómeno que se puede modelizar como un proceso dinámico no lineal.  Con respecto a los parámetros, X0 refleja la cantidad absoluta de células que se destinan al linaje eritroide y que maduran en el primer compartimento de células precursoras eritroides. Las tasas de transición y las tasas de mortalidad entre los compartimentos están dadas por k1, k2 y , estas tasas son independientes de la hormona eritropoyetina. La compensación de la pérdida de sangre se describe mediante un término de retroalimentación de los eritrocitos a las células en proliferación basado en la pérdida fraccional de eritrocitos. Con base en lo anterior, se introducen los parámetros y , que se utilizan para la descripción de las características individuales de la eritropoyesis. Se asume que cada individuo tiene un recuento medio de eritrocitos indicado por el parámetro Base.
+El sistema urinario, particularmente el transporte de la orina desde los riñones hasta la vejiga y su expulsión por la uretra, puede modelarse de forma simplificada mediante un circuito eléctrico de segundo orden. En este modelo, la fricción del flujo urinario dentro de los uréteres se representa con una resistencia 𝑅, que refleja la oposición al movimiento de la orina hacia la vejiga. La inercia de la orina en movimiento se modela mediante un inductor 𝐿, representando la dificultad del sistema para cambiar rápidamente la velocidad del flujo. La capacidad de almacenamiento de la vejiga se simula con un capacitor 𝐶𝑣, que refleja cómo aumenta la presión vesical a medida que se acumula orina. Finalmente, la resistencia uretral 𝑅𝑝 representa la oposición al flujo de salida durante la micción, modelando la resistencia anatómica de la uretra.
 
-El sistema se resolvió con los siguientes parámetros de gamma y beta: 
-1. gamma = [0.769, 0.388, 0.510, 0.590, 0.262, 0.324, 0.356, 0.089, 0.243, 0.057];
-2. beta = [1.650, 0.867, 1.617, 2.615, 1.518, 2.676, 0.891, 2.557, 0.925, 0.089];
-
-y con las siguientes condiciones iniciales:
-1. x1(0) = COLOCAR SUS CONDICIONES INICIALES;
-2. x2(0) = COLOCAR SUS CONDICIONES INICIALES;
-3. x3(0) = COLOCAR SUS CONDICIONES INICIALES;
-
-
-
-Palabras clave: ?; ?; ?; ?; ?.
+Palabras clave: Infección urinaria; Sistema Urinario; Modelo matemático; Controlador I; Circuito RLC.
 
 ## Lista de archivos incluidos en el repositorio
 
@@ -52,5 +45,3 @@ Palabras clave: ?; ?; ?; ?; ?.
 ## Referencias
 
 [1] P. A. Valle, Syllabus para Modelado de Sistemas Fisiológicos, Tecnológico Nacional de México / Instituto Tecnológico de Tijuana, Tijuana, B.C., México, 2025. Permalink: https://biomath.xyz/course/
-
-[2]  M. Tetschke, P. Lilienthal, T. Pottgiesser, T. Fischer, E. Schalk & S. Sager, Mathematical Modeling of RBC Count Dynamics after Blood Loss , Processes, vol. 6, issue 9, Sep 2018. https://doi.org/10.3390/pr6090157
