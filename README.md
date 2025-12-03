@@ -5,8 +5,11 @@
 ## Información de los estudiantes
 
 Cristina Lopez Lopez [22212259]; l22212259@tectijuana.edu.mx.
+
 Ximena Solis Marrufo [22212274]; l22212274@tectijuana.edu.mx.
+
 Anette Mariana Vidal Ortiz [22212389]; l22212389@tectijuana.edu.mx.
+
 Alberto Villalobos Valdez [22212277]; l22212277@tectijuana.edu.mx.
 
 
