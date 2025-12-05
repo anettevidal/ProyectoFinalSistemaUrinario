@@ -74,6 +74,7 @@ Palabras clave: Infección urinaria; Sistema Urinario; Modelo matemático; Contr
 ## Referencias
 
 [1] P. A. Valle, Syllabus para Modelado de Sistemas Fisiológicos, Tecnológico Nacional de México / Instituto Tecnológico de Tijuana, Tijuana, B.C., México, 2025. Permalink: https://biomath.xyz/course/
+
 [2] Sistema urinario. (2025). Kenhub. https://www.kenhub.com/es/library/anatomia-es/sistema-urinario
 
 ‌
